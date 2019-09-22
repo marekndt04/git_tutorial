@@ -12,3 +12,7 @@ class MainView(View):
 
 class MasterView(View):
     pass
+
+
+class TestView(View):
+    pass
