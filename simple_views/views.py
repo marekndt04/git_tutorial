@@ -16,4 +16,5 @@ class MasterView(View):
 
 
 class TestView(View):
-    pass
+    def get(self, request):
+        pass
