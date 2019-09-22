@@ -16,6 +16,9 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 
+from simple_views.views import MasterView
+
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('', MasterView.as_view(), name='master-view')
 ]
