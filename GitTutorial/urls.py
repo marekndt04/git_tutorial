@@ -20,5 +20,5 @@ from simple_views.views import MasterView
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', MasterView.as_view(), name='master-view')
+    path('', MasterView.as_view(), name='master-vieW')
 ]
