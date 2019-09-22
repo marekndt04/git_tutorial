@@ -17,4 +17,5 @@ class MasterView(View):
 
 class TestView(View):
     def get(self, request):
-        pass
+        return HttpResponse('Test branch makes hello world to You ;P')
+
