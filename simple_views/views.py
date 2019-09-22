@@ -9,3 +9,6 @@ class MainView(View):
     def get(self, request):
         return HttpResponse('Hello world !')
 
+
+class MasterView(View):
+    pass
