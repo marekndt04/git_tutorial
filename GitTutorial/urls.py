@@ -20,6 +20,6 @@ import simple_views.views as simple_views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', simple_views.MasterView.as_view(), name='master-view'),
+    path('', simple_views.MasterView.as_view(), name='masterview'),
     path('test', simple_views.TestView.as_view(), name='test_viewwwww'),
 ]
