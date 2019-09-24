@@ -12,7 +12,7 @@ class MainView(View):
 
 class MasterView(View):
     def get(self, request):
-        return HttpResponse('Master makes hellO world to You :* also changed')
+        return HttpResponse('Master makes hellO world to You :*')
 
 
 class TestView(View):
